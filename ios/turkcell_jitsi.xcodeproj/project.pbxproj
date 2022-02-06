@@ -8,17 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* turkcell_jitsiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* turkcell_jitsiTests.m */; };
-		09B338DA3A90AEFB3CD95757 /* libPods-turkcell_jitsi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 744AE8CEAD827B88E89C686B /* libPods-turkcell_jitsi.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		5CEC497DE363D9CE2057D019 /* libPods-turkcell_jitsi-turkcell_jitsiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 538F670B921CE82F82EC555D /* libPods-turkcell_jitsi-turkcell_jitsiTests.a */; };
+		30F93ECD7CC370F00D3B8D07 /* libPods-turkcell_jitsi-turkcell_jitsiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4E745EBBA1557E5A2AD17C /* libPods-turkcell_jitsi-turkcell_jitsiTests.a */; };
+		54287BA11293A148F6B5BE11 /* libPods-turkcell_jitsi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60075653636828C5A1EE162E /* libPods-turkcell_jitsi.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B01C7E0E27AD719B0080181D /* JitsiMeetSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01C7E0D27AD719B0080181D /* JitsiMeetSDK.xcframework */; };
 		B01C7E1127AD71B30080181D /* JitsiMeetSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01C7E0D27AD719B0080181D /* JitsiMeetSDK.xcframework */; settings = {ATTRIBUTES = (Required, ); }; };
 		B01C7E1727AD72040080181D /* WebRTC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01C7E1627AD72040080181D /* WebRTC.xcframework */; };
-		B01C7E1F27AD74520080181D /* RNJitsiMeetView.m in Sources */ = {isa = PBXBuildFile; fileRef = B01C7E1D27AD74520080181D /* RNJitsiMeetView.m */; };
-		B01C7E2027AD74520080181D /* RNJitsiMeetViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B01C7E1E27AD74520080181D /* RNJitsiMeetViewManager.m */; };
+		B0530AD227AEF87B0083BEA7 /* WebRTC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01C7E1627AD72040080181D /* WebRTC.xcframework */; };
+		B0530B1127AEFBF00083BEA7 /* RNJitsiMeetView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0530B0E27AEFBF00083BEA7 /* RNJitsiMeetView.m */; };
+		B0530B1227AEFBF00083BEA7 /* RNJitsiMeetViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B0530B0F27AEFBF00083BEA7 /* RNJitsiMeetViewManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,20 +42,20 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = turkcell_jitsi/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = turkcell_jitsi/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = turkcell_jitsi/main.m; sourceTree = "<group>"; };
-		4190AB8ABDE28331D5BE6FD1 /* Pods-turkcell_jitsi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-turkcell_jitsi.release.xcconfig"; path = "Target Support Files/Pods-turkcell_jitsi/Pods-turkcell_jitsi.release.xcconfig"; sourceTree = "<group>"; };
-		458F791FE6FFE1B6D8DA469C /* Pods-turkcell_jitsi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-turkcell_jitsi.debug.xcconfig"; path = "Target Support Files/Pods-turkcell_jitsi/Pods-turkcell_jitsi.debug.xcconfig"; sourceTree = "<group>"; };
-		538F670B921CE82F82EC555D /* libPods-turkcell_jitsi-turkcell_jitsiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-turkcell_jitsi-turkcell_jitsiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		744AE8CEAD827B88E89C686B /* libPods-turkcell_jitsi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-turkcell_jitsi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7726C5B938CB521CDF3A7305 /* Pods-turkcell_jitsi-turkcell_jitsiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-turkcell_jitsi-turkcell_jitsiTests.debug.xcconfig"; path = "Target Support Files/Pods-turkcell_jitsi-turkcell_jitsiTests/Pods-turkcell_jitsi-turkcell_jitsiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C4E745EBBA1557E5A2AD17C /* libPods-turkcell_jitsi-turkcell_jitsiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-turkcell_jitsi-turkcell_jitsiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A635815ED8834EBFC0B27F /* Pods-turkcell_jitsi-turkcell_jitsiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-turkcell_jitsi-turkcell_jitsiTests.debug.xcconfig"; path = "Target Support Files/Pods-turkcell_jitsi-turkcell_jitsiTests/Pods-turkcell_jitsi-turkcell_jitsiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C99C06FD50BF6ADCF155953 /* Pods-turkcell_jitsi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-turkcell_jitsi.debug.xcconfig"; path = "Target Support Files/Pods-turkcell_jitsi/Pods-turkcell_jitsi.debug.xcconfig"; sourceTree = "<group>"; };
+		60075653636828C5A1EE162E /* libPods-turkcell_jitsi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-turkcell_jitsi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = turkcell_jitsi/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B01C7E0D27AD719B0080181D /* JitsiMeetSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = JitsiMeetSDK.xcframework; sourceTree = "<group>"; };
 		B01C7E1627AD72040080181D /* WebRTC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = WebRTC.xcframework; sourceTree = "<group>"; };
-		B01C7E1B27AD74520080181D /* RNJitsiMeetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNJitsiMeetView.h; path = "../node_modules/react-native-jitsi-meet/ios/RNJitsiMeetView.h"; sourceTree = "<group>"; };
-		B01C7E1C27AD74520080181D /* RNJitsiMeetViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNJitsiMeetViewManager.h; path = "../node_modules/react-native-jitsi-meet/ios/RNJitsiMeetViewManager.h"; sourceTree = "<group>"; };
-		B01C7E1D27AD74520080181D /* RNJitsiMeetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNJitsiMeetView.m; path = "../node_modules/react-native-jitsi-meet/ios/RNJitsiMeetView.m"; sourceTree = "<group>"; };
-		B01C7E1E27AD74520080181D /* RNJitsiMeetViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNJitsiMeetViewManager.m; path = "../node_modules/react-native-jitsi-meet/ios/RNJitsiMeetViewManager.m"; sourceTree = "<group>"; };
+		B0530B0D27AEFBF00083BEA7 /* RNJitsiMeetViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNJitsiMeetViewManager.h; path = "../../react-native-jitsi-meet/ios/RNJitsiMeetViewManager.h"; sourceTree = "<group>"; };
+		B0530B0E27AEFBF00083BEA7 /* RNJitsiMeetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNJitsiMeetView.m; path = "../../react-native-jitsi-meet/ios/RNJitsiMeetView.m"; sourceTree = "<group>"; };
+		B0530B0F27AEFBF00083BEA7 /* RNJitsiMeetViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNJitsiMeetViewManager.m; path = "../../react-native-jitsi-meet/ios/RNJitsiMeetViewManager.m"; sourceTree = "<group>"; };
+		B0530B1027AEFBF00083BEA7 /* RNJitsiMeetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNJitsiMeetView.h; path = "../../react-native-jitsi-meet/ios/RNJitsiMeetView.h"; sourceTree = "<group>"; };
+		DB0CD6B365C2EAA69230D1DA /* Pods-turkcell_jitsi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-turkcell_jitsi.release.xcconfig"; path = "Target Support Files/Pods-turkcell_jitsi/Pods-turkcell_jitsi.release.xcconfig"; sourceTree = "<group>"; };
+		E12FEB52B4E98741F576E6EC /* Pods-turkcell_jitsi-turkcell_jitsiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-turkcell_jitsi-turkcell_jitsiTests.release.xcconfig"; path = "Target Support Files/Pods-turkcell_jitsi-turkcell_jitsiTests/Pods-turkcell_jitsi-turkcell_jitsiTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FA569100CFE3F410F5714569 /* Pods-turkcell_jitsi-turkcell_jitsiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-turkcell_jitsi-turkcell_jitsiTests.release.xcconfig"; path = "Target Support Files/Pods-turkcell_jitsi-turkcell_jitsiTests/Pods-turkcell_jitsi-turkcell_jitsiTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +63,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CEC497DE363D9CE2057D019 /* libPods-turkcell_jitsi-turkcell_jitsiTests.a in Frameworks */,
 				B01C7E0E27AD719B0080181D /* JitsiMeetSDK.xcframework in Frameworks */,
 				B01C7E1727AD72040080181D /* WebRTC.xcframework in Frameworks */,
+				30F93ECD7CC370F00D3B8D07 /* libPods-turkcell_jitsi-turkcell_jitsiTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0530AD227AEF87B0083BEA7 /* WebRTC.xcframework in Frameworks */,
 				B01C7E1127AD71B30080181D /* JitsiMeetSDK.xcframework in Frameworks */,
-				09B338DA3A90AEFB3CD95757 /* libPods-turkcell_jitsi.a in Frameworks */,
+				54287BA11293A148F6B5BE11 /* libPods-turkcell_jitsi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +102,7 @@
 		13B07FAE1A68108700A75B9A /* turkcell_jitsi */ = {
 			isa = PBXGroup;
 			children = (
-				B01C7E1A27AD73F80080181D /* JitsiFramework */,
+				B0530B0C27AEFBE40083BEA7 /* JitsiNative */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -114,10 +116,10 @@
 		1787856044E46D58354C296C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				458F791FE6FFE1B6D8DA469C /* Pods-turkcell_jitsi.debug.xcconfig */,
-				4190AB8ABDE28331D5BE6FD1 /* Pods-turkcell_jitsi.release.xcconfig */,
-				7726C5B938CB521CDF3A7305 /* Pods-turkcell_jitsi-turkcell_jitsiTests.debug.xcconfig */,
-				FA569100CFE3F410F5714569 /* Pods-turkcell_jitsi-turkcell_jitsiTests.release.xcconfig */,
+				4C99C06FD50BF6ADCF155953 /* Pods-turkcell_jitsi.debug.xcconfig */,
+				DB0CD6B365C2EAA69230D1DA /* Pods-turkcell_jitsi.release.xcconfig */,
+				43A635815ED8834EBFC0B27F /* Pods-turkcell_jitsi-turkcell_jitsiTests.debug.xcconfig */,
+				E12FEB52B4E98741F576E6EC /* Pods-turkcell_jitsi-turkcell_jitsiTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -128,8 +130,8 @@
 				B01C7E0D27AD719B0080181D /* JitsiMeetSDK.xcframework */,
 				B01C7E1627AD72040080181D /* WebRTC.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				744AE8CEAD827B88E89C686B /* libPods-turkcell_jitsi.a */,
-				538F670B921CE82F82EC555D /* libPods-turkcell_jitsi-turkcell_jitsiTests.a */,
+				60075653636828C5A1EE162E /* libPods-turkcell_jitsi.a */,
+				1C4E745EBBA1557E5A2AD17C /* libPods-turkcell_jitsi-turkcell_jitsiTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,15 +167,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B01C7E1A27AD73F80080181D /* JitsiFramework */ = {
+		B0530B0C27AEFBE40083BEA7 /* JitsiNative */ = {
 			isa = PBXGroup;
 			children = (
-				B01C7E1B27AD74520080181D /* RNJitsiMeetView.h */,
-				B01C7E1D27AD74520080181D /* RNJitsiMeetView.m */,
-				B01C7E1C27AD74520080181D /* RNJitsiMeetViewManager.h */,
-				B01C7E1E27AD74520080181D /* RNJitsiMeetViewManager.m */,
+				B0530B1027AEFBF00083BEA7 /* RNJitsiMeetView.h */,
+				B0530B0E27AEFBF00083BEA7 /* RNJitsiMeetView.m */,
+				B0530B0D27AEFBF00083BEA7 /* RNJitsiMeetViewManager.h */,
+				B0530B0F27AEFBF00083BEA7 /* RNJitsiMeetViewManager.m */,
 			);
-			name = JitsiFramework;
+			name = JitsiNative;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,12 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "turkcell_jitsiTests" */;
 			buildPhases = (
-				0698EEBF7ECD135F2D52CE47 /* [CP] Check Pods Manifest.lock */,
+				C6BCB719319B221C7EC2ED01 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				FFCFEC0D50A27753B1FEFE93 /* [CP] Embed Pods Frameworks */,
-				3D81BE8B33E5C58A9050D519 /* [CP] Copy Pods Resources */,
+				FFF1B63C9DB09BB2A766EE7E /* [CP] Embed Pods Frameworks */,
+				DDBA28A44D246EA6CFA8B0AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,14 +206,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "turkcell_jitsi" */;
 			buildPhases = (
-				15D53FE46CE360E2063E0BBF /* [CP] Check Pods Manifest.lock */,
+				D8AFD48B5C64B9C541DBEE0F /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				8724488EB6BE76968E495A1C /* [CP] Embed Pods Frameworks */,
-				B8EF4015B7CD2A2F2133D894 /* [CP] Copy Pods Resources */,
+				1B9D7E7FA4B130D7819AC2C6 /* [CP] Embed Pods Frameworks */,
+				8F4C9582BDDF1C686DFB4F16 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -292,7 +294,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		0698EEBF7ECD135F2D52CE47 /* [CP] Check Pods Manifest.lock */ = {
+		1B9D7E7FA4B130D7819AC2C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-turkcell_jitsi/Pods-turkcell_jitsi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-turkcell_jitsi/Pods-turkcell_jitsi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-turkcell_jitsi/Pods-turkcell_jitsi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F4C9582BDDF1C686DFB4F16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-turkcell_jitsi/Pods-turkcell_jitsi-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-turkcell_jitsi/Pods-turkcell_jitsi-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-turkcell_jitsi/Pods-turkcell_jitsi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6BCB719319B221C7EC2ED01 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -314,7 +350,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		15D53FE46CE360E2063E0BBF /* [CP] Check Pods Manifest.lock */ = {
+		D8AFD48B5C64B9C541DBEE0F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -336,7 +372,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3D81BE8B33E5C58A9050D519 /* [CP] Copy Pods Resources */ = {
+		DDBA28A44D246EA6CFA8B0AB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -351,40 +387,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-turkcell_jitsi-turkcell_jitsiTests/Pods-turkcell_jitsi-turkcell_jitsiTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8724488EB6BE76968E495A1C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-turkcell_jitsi/Pods-turkcell_jitsi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-turkcell_jitsi/Pods-turkcell_jitsi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-turkcell_jitsi/Pods-turkcell_jitsi-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B8EF4015B7CD2A2F2133D894 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-turkcell_jitsi/Pods-turkcell_jitsi-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-turkcell_jitsi/Pods-turkcell_jitsi-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-turkcell_jitsi/Pods-turkcell_jitsi-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -406,7 +408,7 @@
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		FFCFEC0D50A27753B1FEFE93 /* [CP] Embed Pods Frameworks */ = {
+		FFF1B63C9DB09BB2A766EE7E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,8 +433,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E356F31AD99517003FC87E /* turkcell_jitsiTests.m in Sources */,
-				B01C7E2027AD74520080181D /* RNJitsiMeetViewManager.m in Sources */,
-				B01C7E1F27AD74520080181D /* RNJitsiMeetView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +441,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				B0530B1127AEFBF00083BEA7 /* RNJitsiMeetView.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				B0530B1227AEFBF00083BEA7 /* RNJitsiMeetViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,7 +460,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7726C5B938CB521CDF3A7305 /* Pods-turkcell_jitsi-turkcell_jitsiTests.debug.xcconfig */;
+			baseConfigurationReference = 43A635815ED8834EBFC0B27F /* Pods-turkcell_jitsi-turkcell_jitsiTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -485,7 +487,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA569100CFE3F410F5714569 /* Pods-turkcell_jitsi-turkcell_jitsiTests.release.xcconfig */;
+			baseConfigurationReference = E12FEB52B4E98741F576E6EC /* Pods-turkcell_jitsi-turkcell_jitsiTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -509,7 +511,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 458F791FE6FFE1B6D8DA469C /* Pods-turkcell_jitsi.debug.xcconfig */;
+			baseConfigurationReference = 4C99C06FD50BF6ADCF155953 /* Pods-turkcell_jitsi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -535,7 +537,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4190AB8ABDE28331D5BE6FD1 /* Pods-turkcell_jitsi.release.xcconfig */;
+			baseConfigurationReference = DB0CD6B365C2EAA69230D1DA /* Pods-turkcell_jitsi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
