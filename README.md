@@ -1,1 +1,1 @@
-# turkcell_jitsi
+# custom_jitsi
